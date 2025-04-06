@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="icon" type="image/x-icon" href="/assets/icon_black.svg" />
+    <link rel="stylesheet" href="styles/style.css" />
+    <title>FORMA'SINT</title>
+  </head>
+  <body>
+    <!-- for Mobile Menu -->
+    <div class="overlay" id="overlay"></div>
+
+    <nav class="mobile-menu" id="mobileMenu">
+      <div class="mobile-menu-header">
+        <img src="assets/icon.svg" alt="Logo" class="logo" id="mobileLogo" />
+        <span class="close-btn" id="closeBtn">X CLOSE</span>
+      </div>
+      <ul>
+        <li><a href="#home" class="mobile-nav-link">Home</a></li>
+        <li><a href="#featured" class="mobile-nav-link">Featured Products</a></li>
+        <li><a href="#listing" class="mobile-nav-link">Product Listing</a></li>
+      </ul>
+    </nav>
+
+    <!-- Desktop Navbar -->
+    <nav class="navbar">
+      <div class="navbar-left">
+        <img src="assets/icon.svg" alt="Logo" class="logo" id="desktopLogo" />
+        <span class="page-name">FORMA'SINT.</span>
+        <span class="company-name">IDOMODS &lt;/&gt;</span>
+      </div>
+      <div class="navbar-middle">
+        <div class="nav-button">
+          <a href="#home" class="nav-link">Home</a>
+        </div>
+        <div class="nav-button">
+          <a href="#featured" class="nav-link">Featured Products</a>
+        </div>
+        <div class="nav-button">
+          <a href="#listing" class="nav-link">Product Listing</a>
+        </div>
+      </div>
+      <div class="navbar-right">
+        <img src="assets/user.svg" alt="User Icon" class="user-icon" />
+        <span class="profile-name">FRONTEND DEVELOPER</span>
+        <span class="hamburger" id="hamburger">&#9776; MENU</span>
+      </div>
+    </nav>
+
+    <!-- Sample Sections for Smooth Scrolling -->
+    <section id="home" style="padding-top: 80px">
+      <!-- Section 1 -->
+      <img class="big-logo" src="assets/logo.svg" alt="logo">
+      <div class="hero">
+        <img src="/assets/hero.png" alt="hero">
+      </div>
+    </section>
+    <section id="featured" style="padding-top: 80px">
+      2
+      <div class="dropdown" id="productDropdown">
+        <div class="dropdown-header" id="dropdownHeader">
+          <span id="selectedOption">14</span>
+          <span class="arrow"><img src="assets/dropdown.svg" alt="dropdown"></span>
+        </div>
+        <ul class="dropdown-options">
+          <li data-value="14">14</li>
+          <li data-value="24">24</li>
+          <li data-value="36">36</li>
+        </ul>
+      </div>
+    </section>
+    <section id="listing" style="height: 800px;">
+      3
+    </section>
+  </body>
+  <script src="scripts/main.js"></script>
+</html>
